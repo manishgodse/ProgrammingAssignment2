@@ -35,7 +35,7 @@ cacheSolve <- function(x, ...) {
         ## check whether inverse is already calculated. If it is calculated then return it with message.
         if (!is.null(m)) {
                 message("getting cached inverse matrix")
-        return(m)
+                return(m)
         } 
         
         ## get data for calculating inverse of matrix
